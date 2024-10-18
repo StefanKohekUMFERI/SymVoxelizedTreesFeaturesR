@@ -1,0 +1,3 @@
+useDynLib(SymVoxelizedTreesFeatures, .registration=TRUE)
+import(methods, Rcpp)
+exportPattern("^[[:alpha:]]+")

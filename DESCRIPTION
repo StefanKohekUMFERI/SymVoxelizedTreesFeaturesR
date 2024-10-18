@@ -1,0 +1,14 @@
+Package: SymVoxelizedTreesFeatures
+Type: Package
+Title: Calculate symmetry aware features of voxelized XYZ trees for tree species classification
+Version: 1.0
+Date: 2023-04-07
+Author: Štefan Kohek,
+  Damjan Strnad
+Maintainer: Štefan Kohek <stefan.kohek@um.si>
+Description: This package computes features from voxelized trees in XYZ data format. The features measure symmetry through the tree crown by using IOUs of symmetric tree. 
+License: GPL (>= 2)
+Imports: methods, Rcpp (>= 1.0.10)
+LinkingTo: Rcpp
+SystemRequirements: C++17
+RoxygenNote: 7.3.2
